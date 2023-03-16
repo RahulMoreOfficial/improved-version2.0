@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-16T11:41:35Z" name="Suite" finished-at="2023-03-16T11:41:35Z" duration-ms="102">
+    <groups>
+    </groups>
+    <test started-at="2023-03-16T11:41:35Z" name="CreatePortFolio" finished-at="2023-03-16T11:41:35Z" duration-ms="27">
+      <class name="testCases.PortFolioManagement">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.PortFolioManagement@68e5eea7]" started-at="2023-03-16T11:41:35Z" name="beforeMethod" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPortfolio()[pri:0, instance:testCases.PortFolioManagement@68e5eea7]" started-at="2023-03-16T11:41:35Z" name="createPortfolio" finished-at="2023-03-16T11:41:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+      </class> <!-- testCases.PortFolioManagement -->
+      <class name="testCases.Session">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Session@38e79ae3]" started-at="2023-03-16T11:41:35Z" name="beforeTest" finished-at="2023-03-16T11:41:35Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="doLogin()[pri:0, instance:testCases.Session@38e79ae3]" started-at="2023-03-16T11:41:35Z" name="doLogin" finished-at="2023-03-16T11:41:35Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.Session@38e79ae3]" started-at="2023-03-16T11:41:35Z" name="beforeMethod" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- testCases.Session -->
+    </test> <!-- CreatePortFolio -->
+    <test started-at="2023-03-16T11:41:35Z" name="DeletePortFolio" finished-at="2023-03-16T11:41:35Z" duration-ms="3">
+      <class name="testCases.PortFolioManagement">
+        <test-method signature="deletePortfolio()[pri:0, instance:testCases.PortFolioManagement@484970b0]" started-at="2023-03-16T11:41:35Z" name="deletePortfolio" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.PortFolioManagement@484970b0]" started-at="2023-03-16T11:41:35Z" name="beforeMethod" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- testCases.PortFolioManagement -->
+      <class name="testCases.Session">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.Session@3e96bacf]" started-at="2023-03-16T11:41:35Z" name="beforeMethod" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.Session@3e96bacf]" started-at="2023-03-16T11:41:35Z" name="beforeTest" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="doLogin()[pri:0, instance:testCases.Session@3e96bacf]" started-at="2023-03-16T11:41:35Z" name="doLogin" finished-at="2023-03-16T11:41:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testCases.Session -->
+    </test> <!-- DeletePortFolio -->
+  </suite> <!-- Suite -->
+</testng-results>
