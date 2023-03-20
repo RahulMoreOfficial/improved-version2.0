@@ -1,6 +1,6 @@
 package keywords;
 
-public class ValidationKeywords 
+public class ValidationKeywords extends GenericKeywors
 {
 
 	public void validateTitle()
